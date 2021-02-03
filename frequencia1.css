@@ -1,0 +1,65 @@
+body{
+    /*background-color: black;*/
+    background-image: url("bg.jpg");
+}
+#CorTabela{
+    background-color: white;
+}
+
+#turma{
+    border-radius:10px;
+    margin-top: 50px;
+}
+
+#data{
+    border-radius:10px;
+}
+
+#local{
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: 5px;
+    color: #006400;
+/*background-color: gray;*/
+}
+
+#cor2{
+    background-color: bGray21;
+}
+
+#listarFrequencia{
+    border-radius: 10px;
+}
+
+#listarNomes{
+    border-radius: 10px;
+}
+
+#salvar{
+    border-radius: 10px;
+}
+
+#top{
+    margin-top: 1%;
+}
+
+#listarNomes{
+    border-radius: 10px;
+}
+
+.cor{
+    color: #000000
+}
+
+.ad{
+    color:gray;
+}
+
+.CorFonte{
+    color: gray;
+}
+
+/* Esta classe é atribuida no JavaScript, não no HTML, na tag <option> onde as turmas se alocam */
+.CorFonte2{
+    color:black;
+}

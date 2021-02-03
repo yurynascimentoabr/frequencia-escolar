@@ -1,0 +1,1 @@
+SELECT alu_nome, fre_situacao, tur_serie, tur_nome FROM frequencia, turma, alunos  where alunos.alu_tur_id = turma.tur_id AND turma.tur_id=1 AND alunos.alu_matricula = frequencia.fre_alu_id AND EXTRACT(MONTH FROM frequencia.fre_data)=04

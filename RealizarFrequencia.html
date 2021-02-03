@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Sistema de Frequência</title>
+		<link rel="stylesheet" href="bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="frequencia1.css" type="text/css">
+	</head>
+
+<body>
+		<nav class="navbar navbar-inverse" id="cor2">
+		 <div class="container-fluid">
+			
+				<ul class="nav navbar-nav cor">
+					<li><a href="index.html">Início</a></li>
+					<li class="active"><a href="freq.html">Realizar frequência</a></li>
+					<li><a href="VisualizarFrequencia.html">Visualizar frequência</a></li>    
+				</ul>
+		 </div>
+		</nav>
+
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<select id="turma">
+    			<option>Escolha a turma</option>
+  			</select>	
+					<button class="btn-success" id="listarNomes">Listar</button>	
+			</div>			
+		</div>
+	
+			<div class="row" id="top">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<table id ="CorTabela" class="table" id="cor">
+						<tr>
+							<th> <center> Nomes </center> </th>				
+							<th id="dataCabecalho"> <center> Data </center> </th> 
+						</tr>
+							<tbody id="listaNomes">			
+							</tbody>
+					</table>
+						<button class="btn-success" id="salvar">Salvar</button>
+		
+				</div>
+			</div>
+
+  		<script src="jquery-3.1.1.js">
+    	</script>
+
+    	<script src="java.js">
+    	</script>
+			
+</body>
+
+</html>

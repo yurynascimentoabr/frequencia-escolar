@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sistema de Frequência</title>
+    <link rel="icon" href="icontitle.ico">
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="frequencia1.css" type="text/css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+    
+     <div class="container-fluid">
+    
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="RealizarFrequencia.html">Realizar frequência</a></li>
+        <li class="active"><a href="VisualizarFrequencia.html">Visualizar frequência</a></li> 
+      </ul>
+
+     </div>
+
+    </nav>
+
+       <div id="divisona">
+	      <div id="divisinha">
+          <div id="img">
+	          <center>
+	            <img src="gov.png" width="5%" height="2%"
+	          </center>
+          </div>
+
+	          <div id="MensagemIndex">
+	            <center>
+              	<b>Frequência Mensal</b>
+	            </center>
+	          </div>
+ <center>
+     <select id="turma" class="CorFonte">
+            <option>Escolha a turma</option>
+     </select>
+        <select id="data" class="ad">
+          <option > <center> Escolha o mês </center> </option>
+          <option value="01" class="cor"> <center> Janeiro </center> </option>
+          <option value="02" class="cor"> <center> Fevereiro </center> </option>
+          <option value="03" class="cor"> <center> Março </center> </option>
+          <option value="04" class="cor"> <center> Abril </center> </option>
+          <option value="05" class="cor"> <center> Maio </center> </option>
+          <option value="06" class="cor"> <center> Junho </center> </option>
+          <option value="07" class="cor"> <center> Julho </center> </option>
+          <option value="08" class="cor"> <center> Agosto </center> </option>
+          <option value="09" class="cor"> <center> Setembro </center> </option>
+          <option value="10" class="cor"> <center> Outubro </center> </option>
+          <option value="11" class="cor"> <center> Novembro </center> </option>
+          <option value="12" class="cor"> <center> Dezembro </center></option>
+        </select>  
+
+          <button class="btn-success" id="listarFrequencia">Visualizar frequências</button>
+ </center>
+
+      <div class="row" id="top">
+        <div class="col-md-6 col-md-offset-3">
+          <table id="CorTabela" class="table abc table-bordered table-condensed table-hover">
+            <tr>
+              <th> <center> Nomes </center> </th>
+              <th> <center> Número de faltas </center> </th> 
+            </tr>
+            <tbody id="listaNomes">          
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    <script src="jquery-3.1.1.js">
+    </script>
+
+    <script src="java.js">
+    </script>
+
+  </body>
+</html>
